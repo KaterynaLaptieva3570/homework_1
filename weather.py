@@ -4,9 +4,9 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-API_KEY = "AD5ZDK96SSRHNKALGAWPEYDR9"
+API_KEY = ""
 base_url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline"
-API_TOKEN = "123"  
+API_TOKEN = ""  
 
 def authenticate_token(token):
     return token == API_TOKEN
